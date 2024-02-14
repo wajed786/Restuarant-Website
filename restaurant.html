@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="restaurant.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <!-- header section start -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-cutlery"></i>Restaurant</a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#booking">book table</a>
+            <a href="#menu">menu</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- SEARCH FORM -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="wrapper">
+            <marquee behavior="50" direction="left"><h1>European Cuisine World Tastes</h1></marquee>
+            <div class="col-1">
+                
+                <h5>Modern approach to classic recipes</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quos.</p>
+                <a href="#" class="btn"> order now</a>
+            </div>
+            <div class="col-2">
+                <img src="fish-risotto-white-dinner-plate-white-background_872147-6801.jpg" alt="">
+            </div>
+        </div>
+        <div class="wrapper2">
+            <div class="col-1">
+                <h1>With a wide range of world cuisines to <br>
+                    choose from, we guarentee you a <br> sumptuous feast experience in our <br>
+                    restaurant!</h1>
+            </div>
+            <div class="col-2">
+                <div class="p1">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos tempora ullam ipsam harum eligendi.
+                        Quis voluptate earum facilis a, minima similique modi ratione distinctio, eos libero, ullam
+                        incidunt quae? Maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                        sed error. Dicta voluptas, molestiae laboriosam mollitia praesentium at? Ut culpa explicabo eum
+                        aspernatur eveniet cum odit ex vero a obcaecati. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Quas, similique. Ab, autem at sint repudiandae aspernatur excepturi laborum,
+                        inventore minus officia delectus, reprehenderit vel repellat?</p>
+                </div>
+                <div class="p2">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos tempora ullam ipsam harum eligendi.
+                        Quis voluptate earum facilis a, minima similique modi ratione distinctio, eos libero, ullam
+                        incidunt quae? Maiores. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                        sed error. Dicta voluptas, molestiae laboriosam mollitia praesentium at? Ut culpa explicabo eum
+                        aspernatur eveniet cum odit ex vero a obcaecati. Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Quas, similique.</p>
+                    <a href="#" class="btn"> order now</a>
+                </div>
+            </div>
+            <div class="col-3">
+                <img src="ketogenic-low-carbs-diet-food-selection-white-wall.jpg" alt="">
+            </div>
+        </div>
+        <div class="booking" id="booking">
+            <div class="col-1">
+                <img src="fish-risotto-white-dinner-plate-white-background_872147-6801.jpg" alt="">
+            </div>
+            <div class="col-2">
+                <h1>Book Your Table</h1>
+                <form action="">
+
+                    <div class="inputs">
+                        <label for="number">Phone</label>
+                        <input type="number" placeholder="Enter your phone (e.g. +1">
+                    </div>
+                    <div class="inputs">
+                        <label for="text">Name</label>
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                    <div class="inputs">
+                        <label for="date">Date</label>
+                        <input class="date" type="date" placeholder="Enter Date">
+                    </div>
+                    <div class="inputs">
+                        <label for="text">Message</label>
+                        <input class="message" type="text" placeholder="Enter your message">
+                    </div>
+
+                    <a href="#" class="btn">SUBMIT</a>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <!-- home section end -->
+
+    <!-- menu section start -->
+    <section>
+        <div class="menu" id="menu">
+            <h1>Our Menu</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere, consequatur dolor aliquid quam itaque
+                alias fugiat amet perferendis omnis.</p>
+            <div class="content">
+                <div class="col-1">
+                    <h2>Breakfast</h2>
+                    <div class="box">
+                        <h5>BREAKFAST BOWL</h5>
+                        <p>$8.50</p>
+                        <p>Black Bean Cake, Greens , Tomato & <br> AvocadoPico drizzied width Lime Cream</p>
+                    </div>
+                    <div class="box">
+                        <h5>EGG SANDWICH</h5>
+                        <p>$7.50</p>
+                        <h6>CHOISE OF HOUSEMADE ENGLISH <br> MUFFIN OR BISUIT CHOISE OF <br> TOPPINGS:
+                        </h6>
+                        <p> - Bacon, Ham ,or Rosewater Linguica Patty</p>
+                        <p> - Cheddar or Goat Cheese</p>
+                        <p> - Argula, Tomato, Red Onion, Avocado</p>
+                    </div>
+                    <div class="box">
+                        <h5>BREAKFAST BURRITO</h5>
+                        <p>$9.50</p>
+                        <p>Three Scrambled Eggs, Cheddar, our <br>
+                            Black Bean Cake, Avocado, <br> Pico, & Lime Cream</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="box">
+                        <h5>AVOCADO TOAST</h5>
+                        <p>$8.00</p>
+                        <p>Crushed Avocado Topped With MV Sea Salt On Toasted Multigrain</p>
+                    </div>
+                    <div class="box">
+                        <h5>BAGEL WITH CREAM CHEESE</h5>
+                        <p>$8.00</p>
+                        <p>Plain, Cranberry, or Everything</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section end -->
+
+    <!--gallery section start-->
+
+    <section class="gallery">
+        <h1>10 simple ways to manage your sugar <br> cravings, according to a nutritionist</h1>
+        <p>Five minutes of mindfulness and a dash of lemon juice can make all the difference</p>
+
+        <div class="imgs">
+            <img src="strawberry-juice-with-sliced-oranges-iphone-12-pro-max.jpg" alt="">
+            <img src="food-2569257_1920-e1622974423632.webp" alt="">
+            <img src="images (2).jpg" alt="">
+            <img src="images (1).jpg" alt="">
+            <img src="images (3).jpg" alt="">
+
+            <img src="images (4).jpg" alt="">
+            <img src="images (5).jpg" alt="">
+
+        </div>
+        <a href="#" class="btn"> order now</a>
+    </section>
+
+    <section>
+
+        <div class="menu" id="menu">
+
+
+            <div class="content">
+                <div class="col-1">
+                    <h2>Lunch</h2>
+                    <div class="box">
+                        <h5>BUTTERMILK FRIED CHICKEN</h5>
+                        <p>$13.00</p>
+                        <p>RW Quick Pickles, Greens, Aioli, on Toasted Ciabatta</p>
+                    </div>
+                    <div class="box">
+                        <h5>SEASONAL CAPRESE</h5>
+                        <p>$12.00</p>
+
+                        <p>House Marinated Beets, Fresh Mozzarella, and Roasted Kale-Walnut Pesto, on Toasted Ciabatta
+                        </p>
+
+                    </div>
+                    <div class="box">
+                        <h5>HOUSE ROASTED TURKEY</h5>
+                        <p>$11.00</p>
+                        <p>
+                            House Roasted Turkey, Sharp Cheddar, Greens, Tomato, Honey Dijon Mayo on Multigrain</p>
+                    </div>
+                    <div class="box">
+
+                        <h5>SPICY PEANUT TOFU WRAP</h5>
+
+                        <p>$10.00</p>
+                        <p>
+
+                            House Marinated Tofu, Vermicelli Rice Noodles, Carrots, Red Peppers, Red Onions, Cucumbers
+                        </p>
+                    </div>
+                    <div class="box">
+
+                        <h5>BLT</h5>
+
+                        <p>$10</p>
+                        <p>
+
+                            Bacon, Lettuce, Tomato, Avocado, & Mayo, served on Toasted Multigrain</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="box">
+                        <h5>VEGGIE BURGER</h5>
+                        <p>13.00</p>
+                        <p>Housemade Sweet Potato & Black Bean Burger, Pepper Jack Cheese, Crushed Avocado, Red Cabbage
+                            Slaw, Pickled Red Onions</p>
+                    </div>
+
+                    <div class="box">
+
+                        <h5>CLASSIC PB&J</h5>
+
+                        <p>$7.00</p>
+                    </div>
+                    <div class="box">
+
+                        <h5>CLASSIC GRILLED CHEESE</h5>
+
+                        <p>$8.00</p>
+
+                    </div >
+                <div class="box">
+                    <h5>VEGGIE CHILI</h5>
+
+                    <p>$6.00</p>
+                    <p>Topped with Red Onion + Cheddar</p>
+                </div>
+                <div class="box">
+                    <h5>DAILY SPECIAL SOUP</h5>
+                    <p>$6</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--order section start-->
+    <section class="order" id="order">
+        <a href="#" class="btn"> order now</a>
+        <div class="container">
+            <div class="col-1">
+                <img src="images (6).jpg" alt="">
+
+            </div>
+
+            <div class="col-2">
+                <h3>Salmon with salad</h3>
+                <h6>$30.00</h6>
+                <p>Sample text. Click to select the text box. Click again or double click to start editing the text.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <a href="#" class="btn"> order now</a>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="col-1">
+                <div class="box">
+                    <h2>Find Us</h2>
+                    <p>121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</p>
+                </div>
+                <div class="box">
+
+                    <h2>Hours</h2>
+                    <h3>Monday – Saturday</h3>
+                    <p>9am – 7pm</p>
+                    <h3>Sunday</h3>
+                    <p>10am – 6pm</p>
+                </div>
+                <div class="box">
+                    <h2>Call Us</h2>
+                    <h3>1 (234) 567-891</h3>
+                    <h3>2 (345) 333-897</h3>
+                </div>
+                <div class="box">
+
+                    <h2>E-mail</h2>
+                    <p>sample@info.com</p>
+                </div>
+            </div>
+            <div class="col-2">
+                <img src="images (8).jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script src="restaurant.js"></script>
+
+</body>
+
+</html>
